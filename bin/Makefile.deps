@@ -1,0 +1,5 @@
+# DO NOT DELETE
+
+./build/nand2.o: ../src/nand2.h
+./build/tb.o: ../src/tb.h
+./build/main.o: ../src/nand2.h ../src/tb.h
