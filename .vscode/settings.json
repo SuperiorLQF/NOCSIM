@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "queue": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/superior/HiRace2025/NocSim/bin"
 }

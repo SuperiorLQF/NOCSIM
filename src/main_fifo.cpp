@@ -1,6 +1,7 @@
 #include <systemc.h>
-#include "tb.h"  
-#include "regslice.h"      // DUT
+#include "tb_fifo_buffer.h"  
+#include "fifo_buffer.h"      // DUT
+#include "payload_t.h"
 
 int sc_main(int argc, char* argv[]) {
 
@@ -10,14 +11,14 @@ int sc_main(int argc, char* argv[]) {
 
     sc_signal<bool> mst_vld;
     sc_signal<bool> mst_rdy;
-    sc_signal<int>  mst_payload;
+    sc_signal<payload_default>  mst_payload;
 
     sc_signal<bool> slv_vld;
     sc_signal<bool> slv_rdy;
-    sc_signal<int>  slv_payload;
+    sc_signal<payload_default>  slv_payload;
 
     // 实例化 DUT
-    regslice<int> u_dut("u_dut");
+    fifo_buffer<payload_default,2> u_dut("u_dut");
     u_dut.clk(clk);
     u_dut.rst_n(rst_n);
     u_dut.mst_vld(mst_vld);
@@ -28,7 +29,7 @@ int sc_main(int argc, char* argv[]) {
     u_dut.slv_payload(slv_payload);
 
     // 实例化 TBench
-    tb_regslice tb("tb");
+    tb_fifo_buffer<payload_default> tb("tb");
     tb.clk(clk);
     tb.rst_n(rst_n);
     tb.mst_vld(mst_vld);
@@ -39,18 +40,12 @@ int sc_main(int argc, char* argv[]) {
     tb.slv_payload(slv_payload);
 
     // ====== 波形 trace ======
-    sc_trace_file* tf = sc_create_vcd_trace_file("regslice_wave");
+    sc_trace_file* tf = sc_create_vcd_trace_file("fifo_buffer");
     tf->set_time_unit(1, SC_NS);
 
-    sc_trace(tf, clk,         "clk");
-    sc_trace(tf, rst_n,       "rst_n");
-    sc_trace(tf, mst_vld,     "mst_vld");
-    sc_trace(tf, mst_rdy,     "mst_rdy");
-    sc_trace(tf, mst_payload, "mst_payload");
-    sc_trace(tf, slv_vld,     "slv_vld");
-    sc_trace(tf, slv_rdy,     "slv_rdy");
-    sc_trace(tf, slv_payload, "slv_payload");
 
+    sc_trace(tf, u_dut, "fifo_inst");
+    srand(time(nullptr));
     // ========== 启动仿真 ==========
     cout << "=== Simulation Start ===" << endl;
     sc_start();
