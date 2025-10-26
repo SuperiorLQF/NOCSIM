@@ -1,0 +1,36 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sun Oct 26 10:35:15 2025
+[*]
+[dumpfile] "/home/superior/HiRace2025/NocSim/bin/build/regslice_wave.vcd"
+[dumpfile_mtime] "Sun Oct 26 10:33:57 2025"
+[dumpfile_size] 4123
+[savefile] "/home/superior/HiRace2025/NocSim/bin/build/regslice_wave.gtkw"
+[timestart] 0
+[size] 1050 664
+[pos] 349 270
+*-7.000000 60 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 168
+@28
+SystemC.clk
+SystemC.rst_n
+@200
+-upstream
+@28
+SystemC.mst_vld
+SystemC.mst_rdy
+@24
+SystemC.mst_payload[31:0]
+@200
+-downstream
+@29
+SystemC.slv_vld
+@28
+SystemC.slv_rdy
+@24
+SystemC.slv_payload[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
