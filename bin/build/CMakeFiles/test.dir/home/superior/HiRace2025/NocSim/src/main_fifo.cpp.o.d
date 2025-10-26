@@ -1,5 +1,6 @@
-CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.o: \
- /home/superior/HiRace2025/NocSim/src/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o: \
+ /home/superior/HiRace2025/NocSim/src/main_fifo.cpp \
+ /usr/include/stdc-predef.h \
  /home/superior/HiRace2025/NocSim/bin/libs/systemc-3.0.1/include/systemc.h \
  /usr/include/c++/11/cassert \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

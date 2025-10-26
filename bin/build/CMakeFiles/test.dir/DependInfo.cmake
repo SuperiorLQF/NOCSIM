@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/superior/HiRace2025/NocSim/src/main.cpp" "CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.o" "gcc" "CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.o.d"
+  "/home/superior/HiRace2025/NocSim/src/main_fifo.cpp" "CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o" "gcc" "CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o.d"
   )
 
 # Targets to which this target links.

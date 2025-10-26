@@ -69,28 +69,28 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.o: /home/superior/HiRace2025/NocSim/src/main.cpp
-CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/superior/HiRace2025/NocSim/bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.o -MF CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.o.d -o CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.o -c /home/superior/HiRace2025/NocSim/src/main.cpp
+CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o: /home/superior/HiRace2025/NocSim/src/main_fifo.cpp
+CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/superior/HiRace2025/NocSim/bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o -MF CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o.d -o CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o -c /home/superior/HiRace2025/NocSim/src/main_fifo.cpp
 
-CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/superior/HiRace2025/NocSim/src/main.cpp > CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.i
+CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/superior/HiRace2025/NocSim/src/main_fifo.cpp > CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.i
 
-CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/superior/HiRace2025/NocSim/src/main.cpp -o CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.s
+CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/superior/HiRace2025/NocSim/src/main_fifo.cpp -o CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.s
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.o"
+"CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test: CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main.cpp.o
+test: CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o
 test: CMakeFiles/test.dir/build.make
 test: CMakeFiles/test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/superior/HiRace2025/NocSim/bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test"
