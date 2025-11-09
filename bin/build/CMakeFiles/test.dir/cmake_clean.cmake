@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o"
-  "CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o.d"
+  "CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/test.cpp.o"
+  "CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/test.cpp.o.d"
   "test"
   "test.pdb"
 )

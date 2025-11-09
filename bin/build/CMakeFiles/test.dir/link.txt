@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o -o test   -L/home/superior/HiRace2025/NocSim/bin/libs/systemc-3.0.1/lib  -Wl,-rpath,/home/superior/HiRace2025/NocSim/bin/libs/systemc-3.0.1/lib -lsystemc -lm 
+/usr/bin/c++ CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/test.cpp.o -o test   -L/home/superior/HiRace2025/NocSim/bin/libs/systemc-3.0.1/lib  -Wl,-rpath,/home/superior/HiRace2025/NocSim/bin/libs/systemc-3.0.1/lib -lsystemc -lm 

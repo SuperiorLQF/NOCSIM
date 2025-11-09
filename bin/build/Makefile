@@ -129,29 +129,29 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-home/superior/HiRace2025/NocSim/src/main_fifo.o: home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o
-.PHONY : home/superior/HiRace2025/NocSim/src/main_fifo.o
+home/superior/HiRace2025/NocSim/src/test.o: home/superior/HiRace2025/NocSim/src/test.cpp.o
+.PHONY : home/superior/HiRace2025/NocSim/src/test.o
 
 # target to build an object file
-home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o
-.PHONY : home/superior/HiRace2025/NocSim/src/main_fifo.cpp.o
+home/superior/HiRace2025/NocSim/src/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/test.cpp.o
+.PHONY : home/superior/HiRace2025/NocSim/src/test.cpp.o
 
-home/superior/HiRace2025/NocSim/src/main_fifo.i: home/superior/HiRace2025/NocSim/src/main_fifo.cpp.i
-.PHONY : home/superior/HiRace2025/NocSim/src/main_fifo.i
+home/superior/HiRace2025/NocSim/src/test.i: home/superior/HiRace2025/NocSim/src/test.cpp.i
+.PHONY : home/superior/HiRace2025/NocSim/src/test.i
 
 # target to preprocess a source file
-home/superior/HiRace2025/NocSim/src/main_fifo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.i
-.PHONY : home/superior/HiRace2025/NocSim/src/main_fifo.cpp.i
+home/superior/HiRace2025/NocSim/src/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/test.cpp.i
+.PHONY : home/superior/HiRace2025/NocSim/src/test.cpp.i
 
-home/superior/HiRace2025/NocSim/src/main_fifo.s: home/superior/HiRace2025/NocSim/src/main_fifo.cpp.s
-.PHONY : home/superior/HiRace2025/NocSim/src/main_fifo.s
+home/superior/HiRace2025/NocSim/src/test.s: home/superior/HiRace2025/NocSim/src/test.cpp.s
+.PHONY : home/superior/HiRace2025/NocSim/src/test.s
 
 # target to generate assembly for a file
-home/superior/HiRace2025/NocSim/src/main_fifo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/main_fifo.cpp.s
-.PHONY : home/superior/HiRace2025/NocSim/src/main_fifo.cpp.s
+home/superior/HiRace2025/NocSim/src/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/superior/HiRace2025/NocSim/src/test.cpp.s
+.PHONY : home/superior/HiRace2025/NocSim/src/test.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... home/superior/HiRace2025/NocSim/src/main_fifo.o"
-	@echo "... home/superior/HiRace2025/NocSim/src/main_fifo.i"
-	@echo "... home/superior/HiRace2025/NocSim/src/main_fifo.s"
+	@echo "... home/superior/HiRace2025/NocSim/src/test.o"
+	@echo "... home/superior/HiRace2025/NocSim/src/test.i"
+	@echo "... home/superior/HiRace2025/NocSim/src/test.s"
 .PHONY : help
 
 
